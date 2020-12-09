@@ -1,0 +1,31 @@
+{
+  "name": "basic-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage",
+    "test-watch": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacyburris/basic-express-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stacyburris/basic-express-server/issues"
+  },
+  "homepage": "https://github.com/stacyburris/basic-express-server#readme",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "eslint": "^6.8.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "method-override": "^3.0.0",
+    "supertest": "^4.0.2"
+  }
+}
